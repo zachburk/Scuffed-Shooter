@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="680.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="zsbwf7finalproject.AboutController">
+   <children>
+      <Label layoutX="439.0" layoutY="44.0" text="About">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="backButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleGoToHome" text="&lt;--" />
+      <TextArea editable="false" layoutX="194.0" layoutY="152.0" prefHeight="200.0" prefWidth="573.0" text="Scuffed Shooter is a simple top-down shooting game where all you have to do is shoot your opponent. &#10;&#10;The controls are simple:&#10;Player 1 moves with WASD and shoots with the SPACE bar.&#10;Player 2 moves with the arrow keys and shoots with CONTROL.&#10;&#10;Once one of the players reaches a score of 50, they win and the game is over. In order to play again, you&#10;must close and reopen the window." />
+      <TextArea editable="false" layoutX="194.0" layoutY="413.0" prefHeight="200.0" prefWidth="573.0" text="Scuffed Shooter was created by Zach Burkholder for his final project for CS3330 - Object Oriented &#10;Programming at the University of Missouri in Columbia. " />
+   </children>
+</AnchorPane>

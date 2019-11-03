@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="680.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="zsbwf7finalproject.ClassSelectionController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="383.0" layoutY="14.0" text="Class Selection">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="player1NameLabel" layoutX="78.0" layoutY="220.0" text="Player 1">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="player2NameLabel" layoutX="776.0" layoutY="220.0" text="Player 2">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="player1ClassLabel" layoutX="116.0" layoutY="449.0" text="Soldier" />
+      <Label fx:id="player2ClassLabel" layoutX="814.0" layoutY="449.0" text="Soldier" />
+      <Button fx:id="playButton" layoutX="462.0" layoutY="610.0" mnemonicParsing="false" onAction="#handleGoToGame" text="Play" />
+      <Button fx:id="backButton" layoutX="407.0" layoutY="610.0" mnemonicParsing="false" onAction="#handleGoToHome" text="Home" />
+      <Circle fill="#1f93ff" layoutX="134.0" layoutY="340.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ff2525" layoutX="833.0" layoutY="340.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button fx:id="player1ChangeRight" layoutX="208.0" layoutY="301.0" mnemonicParsing="false" onAction="#handleP1ChangeRight" prefHeight="90.0" prefWidth="25.0" text="&gt;" />
+      <Button fx:id="player1ChangeLeft" layoutX="37.0" layoutY="301.0" mnemonicParsing="false" onAction="#handleP1ChangeLeft" prefHeight="90.0" prefWidth="25.0" text="&lt;" />
+      <Button fx:id="player2ChangeRight" layoutX="888.0" layoutY="301.0" mnemonicParsing="false" onAction="#handleP2ChangeRight" prefHeight="90.0" prefWidth="25.0" text="&gt;" />
+      <Button fx:id="player2ChangeLeft" layoutX="751.0" layoutY="301.0" mnemonicParsing="false" onAction="#handleP2ChangeLeft" prefHeight="90.0" prefWidth="25.0" text="&lt;" />
+   </children>
+</AnchorPane>

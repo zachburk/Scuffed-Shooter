@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="680.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="zsbwf7finalproject.HomeController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="272.0" layoutY="29.0" text="SCUFFED SHOOTER">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <Button fx:id="playButton" layoutX="462.0" layoutY="202.0" mnemonicParsing="false" onAction="#handleGoToClassSelect" text="Play" />
+      <Button fx:id="aboutButton" layoutX="456.0" layoutY="433.0" mnemonicParsing="false" onAction="#handleGoToAbout" text="About" />
+   </children>
+</AnchorPane>
